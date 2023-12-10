@@ -1,10 +1,10 @@
 // VARIÁVEIS
-let name = "lord"
-let xp = "3456"
+let name = ""
+let xp = ""
 let level = ""
 
 // Estrutura de controle
-// Operadores
+// Operadores Aritméricos + Operadores Relacionais
 
 if(xp <= 1000){
     level = "Ferro"
@@ -23,3 +23,4 @@ if(xp <= 1000){
  }else if(xp <= 10000){
     level = "Radiante" }
  console.log(" O Herói " + name + " Está na classe " + level)
+ // Variável Name concatenado com a Variável Level
